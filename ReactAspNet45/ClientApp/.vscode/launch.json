@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // In order to make debugging work, chrome browser must be run with --remote-debugging-port=9222
+            // command line argument. Easiest way to do it is to configure Visual Studio's default
+            // web browser to accept this argument. In Visual studio: launch toolbar (down arrow) -> Browse With...
+            // -> Add (path to chrome.exe, --remote-debugging-port=9222, any name), set as default.
+			// "Debugger for Chrome" extension must also be installed for VS code.
+
+            "name": "Attach to chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}

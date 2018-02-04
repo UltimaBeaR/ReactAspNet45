@@ -1,0 +1,9 @@
+// This file helps Visual Studio Code's intellisense if current folder (ClientApp folder) is opened as root in VS Code.
+// For instance, if this file exists, "find references" feature will work across different files (modules) whether these files are opened as tabs or not
+// (only opened files will count in "find references" if this file is missing).
+// This is some kind of javascript project file for VS Code.
+{
+  "compilerOptions": {
+    "baseUrl": "./react-app/"
+  }
+}
